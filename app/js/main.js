@@ -112,7 +112,7 @@ function animate(time) {
 
 function loadAudio(i) {
     document.getElementById("overlay").innerHTML =
-        `<div class="text-loading">${config.loading}</div>`;;
+        `<div class="text-loading">${config.loading}</div>`;
     const files = [
         "http://win.web.ra01.sycdn.kuwo.cn/d68edb8694ff308327aeae7e93b7ad32/63a7f3d1/resource/n2/192/63/72/391434206.mp3",
         "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Dott/This_Christmas/Dott_-_01_-_This_Christmas.mp3",
